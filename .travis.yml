@@ -1,0 +1,13 @@
+sudo: false
+language: ruby
+rvm:
+  - 2.0.0
+  - 2.1.10
+  - 2.2.9
+  - 2.3.6
+  - 2.4.3
+  - 2.5.0
+install: BUNDLE_GEMFILE=gemfile bundle install
+script: BUNDLE_GEMFILE=gemfile bundle exec rake
+notifications:
+  email: false

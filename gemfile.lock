@@ -1,0 +1,62 @@
+PATH
+  remote: .
+  specs:
+    gemsearch (1.0.0)
+      bun (~> 1.2)
+      humanize-number (~> 0.3)
+      tty-prompt (~> 0.16)
+      tty-spinner (~> 0.8)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bun (1.2.0)
+      bundler (~> 1.16)
+      paint (~> 2.0)
+      tty-spinner (~> 0.8)
+    coderay (1.1.2)
+    equatable (0.5.0)
+    hitimes (1.2.6)
+    humanize-number (0.3.0)
+    method_source (0.9.0)
+    minitest (5.11.3)
+    necromancer (0.4.0)
+    paint (2.0.1)
+    pastel (0.7.2)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rake (10.5.0)
+    timers (4.1.2)
+      hitimes
+    tty-color (0.4.2)
+    tty-cursor (0.5.0)
+    tty-prompt (0.16.0)
+      necromancer (~> 0.4.0)
+      pastel (~> 0.7.0)
+      timers (~> 4.0)
+      tty-cursor (~> 0.5.0)
+      tty-reader (~> 0.2.0)
+    tty-reader (0.2.0)
+      tty-cursor (~> 0.5.0)
+      tty-screen (~> 0.6.4)
+      wisper (~> 2.0.0)
+    tty-screen (0.6.4)
+    tty-spinner (0.8.0)
+      tty-cursor (>= 0.5.0)
+    wisper (2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  gemsearch!
+  minitest (~> 5.0)
+  pry (~> 0.11.3)
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.16.1
